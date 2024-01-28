@@ -5,9 +5,9 @@ enum TipoForma{
 
 
 public class Forma {
-    private int base;
-    private int altezza;
-    private TipoForma tipoForma;
+    protected int base;
+    protected int altezza;
+    protected TipoForma tipoForma;
 
     public Forma(int base, int altezza, TipoForma tipoForma){
         this.base = base;
